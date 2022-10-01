@@ -14,3 +14,7 @@ java "-DconfigFile=notifications/telegram.json" -jar notifications/allure-notifi
 
 Для отправки уведомления с помощью телеграм бота с локальной машины
 java "-DconfigFile=notifications/localTelegram.json" -jar notifications/allure-notifications-4.2.1.jar
+
+
+
+    "allureFolder": "build/reports/allure-report/allureReport",
